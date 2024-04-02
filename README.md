@@ -16,3 +16,6 @@ yum -y install -y git nano && git clone https://github.com/skynetfibragithub/ISS
 
 ```
 
+Testado: 02-04-2024 as 01:55 AM.
+By: DCT SISTEMAS
+
