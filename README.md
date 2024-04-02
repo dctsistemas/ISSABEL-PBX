@@ -3,6 +3,7 @@ Basta executar estes comandos em uma instalação mínima nova do CentOS 7
 1º Cole o codigo abaixo no terminal para Instalar o ISSABEL-PBX (Asterisk-13)
 
 ```bash
+yum update
 yum -y install wget
 wget -O - http://repo.issabel.org/issabel4-netinstall.sh | bash
 ```
