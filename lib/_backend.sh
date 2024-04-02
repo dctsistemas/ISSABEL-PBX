@@ -34,6 +34,8 @@ backend_copy_ura() {
   cp -r /root/ISSABEL-PBX/agi-bin/ura_consulta.php /var/lib/asterisk/agi-bin
   cp -r /root/ISSABEL-PBX/sounds/* /var/lib/asterisk/sounds/en
   cp -r /root/ISSABEL-PBX/sounds/digits/* /var/lib/asterisk/sounds/en/digits
+  rm -r /var/lib/asterisk/sounds/en/digits
+  cp -r /root/ISSABEL-PBX/sounds/digits /var/lib/asterisk/sounds/en
   cp -r /root/ISSABEL-PBX/conf/* /etc/asterisk/
 
 
