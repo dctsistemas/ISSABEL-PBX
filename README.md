@@ -11,8 +11,8 @@ wget -O - http://repo.issabel.org/issabel4-netinstall.sh | bash
 
 3º Cole o codigo abaixo no terminal para subir as configurações da URA
 ```bash
-yum update
+
 yum -y install -y git nano && git clone https://github.com/skynetfibragithub/ISSABEL-PBX.git && sudo chmod -R 777 ISSABEL-PBX && cd ISSABEL-PBX && sudo ./install
-./install
+
 ```
 
