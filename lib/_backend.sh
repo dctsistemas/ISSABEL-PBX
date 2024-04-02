@@ -32,8 +32,7 @@ backend_copy_ura() {
   
   cp -r /root/ISSABEL-PBX/agi-bin/cron_fat_mensal.php /var/lib/asterisk/agi-bin
   cp -r /root/ISSABEL-PBX/agi-bin/ura_consulta.php /var/lib/asterisk/agi-bin
-  rm -r /var/lib/asterisk/sounds/
-  cp -r /root/ISSABEL-PBX/sounds /var/lib/asterisk/
+  cp -r /root/ISSABEL-PBX/sounds/*.* /var/lib/asterisk/en/
   cp -r /root/ISSABEL-PBX/conf /etc/asterisk/
 
 
